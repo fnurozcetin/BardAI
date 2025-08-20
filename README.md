@@ -73,18 +73,8 @@ http://localhost:3000
 ```
 
 ## 📱 Kullanım
-
-### 🍵 Çay Seansı Başlatma
-1. Ana sayfada "🍵 Çay Kültürü" sekmesine tıklayın
-2. İstediğiniz çay türünü seçin
-3. Demleme süresi ve sıcaklık bilgilerini takip edin
-4. Seans sırasında notlar alın
-5. Seansı tamamladıktan sonra 5 yıldızlı değerlendirme yapın
-6. Seans otomatik olarak Base blockchain'e kaydedilir
-
 ### 🤖 AI Asistan ile Sohbet
 1. "🤖 AI Asistan" sekmesine tıklayın
-2. Çay kültürü hakkında sorularınızı yazın
 3. Hızlı soru butonlarını kullanarak yaygın soruları sorun
 4. AI'dan kişiselleştirilmiş çay önerileri alın
 5. Tüm konuşmalar blockchain'e kaydedilir
@@ -97,10 +87,6 @@ http://localhost:3000
 5. İstatistiklerinizi takip edin
 
 ## 🔧 API Endpoints
-
-### POST /api/tea-session
-Çay seansı verilerini blockchain'e kaydeder.
-
 **Request Body:**
 ```json
 {
@@ -149,22 +135,6 @@ Bu uygulama Coinbase'in Base network'ü üzerinde çalışır:
 
 ## 🚧 Geliştirme
 
-### Yeni Çay Türü Ekleme
-`app/components/TeaCulture.tsx` dosyasındaki `teaTypes` array'ine yeni çay türü ekleyin:
-
-```typescript
-{
-  id: 5,
-  name: "Yeni Çay Türü",
-  origin: "Ülke",
-  description: "Açıklama",
-  brewingTime: "X dakika",
-  temperature: "X°C",
-  benefits: ["Fayda1", "Fayda2"],
-  image: "🍃"
-}
-```
-
 ### Yeni AI Yanıtı Ekleme
 `app/components/AIAssistant.tsx` dosyasındaki `generateAIResponse` fonksiyonuna yeni yanıt mantığı ekleyin.
 
@@ -185,11 +155,6 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 3. Commit yapın (`git commit -m 'Add amazing feature'`)
 4. Push yapın (`git push origin feature/amazing-feature`)
 5. Pull Request oluşturun
-
-## 📞 İletişim
-
-- **Proje**: [GitHub Issues](https://github.com/yourusername/bardai-caychain/issues)
-- **Geliştirici**: [@yourusername](https://github.com/yourusername)
 
 ## 🙏 Teşekkürler
 
