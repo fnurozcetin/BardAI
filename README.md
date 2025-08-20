@@ -1,15 +1,6 @@
-# 🍵 BardAI / ÇayChain
-
-Geleneksel çay kültürünü blockchain teknolojisi ile birleştiren yenilikçi mini uygulama. Çay seanslarınızı kaydedin, AI asistan ile öğrenin ve tüm deneyimlerinizi Base blockchain'e yazın.
+# 🍵 CAI
 
 ## ✨ Özellikler
-
-### 🍵 Çay Kültürü
-- **4 Farklı Çay Türü**: Yeşil, Siyah, Oolong ve Beyaz çay hakkında detaylı bilgi
-- **Çay Seansı Takibi**: Her çay seansınızı notlarla ve değerlendirmelerle kaydedin
-- **Demleme Rehberi**: Her çay türü için optimal demleme süresi ve sıcaklık önerileri
-- **5 Yıldızlı Değerlendirme**: Çay deneyimlerinizi puanlayın
-
 ### 🤖 AI Asistan
 - **Akıllı Yanıtlar**: Çay kültürü hakkında her sorunuzu yanıtlayan AI
 - **Hızlı Soru-Cevap**: Sık sorulan sorular için hızlı erişim butonları
@@ -36,14 +27,14 @@ Geleneksel çay kültürünü blockchain teknolojisi ile birleştiren yenilikçi
 ### Gereksinimler
 - Node.js 18+ 
 - npm veya yarn
-- Base network cüzdanı (Coinbase Wallet, MetaMask)
+- Base network cüzdanı (Coinbase Wallet)
 
 ### Adımlar
 
 1. **Repository'yi klonlayın**
 ```bash
 git clone https://github.com/yourusername/bardai-caychain.git
-cd bardai-caychain
+cd bardai
 ```
 
 2. **Bağımlılıkları yükleyin**
