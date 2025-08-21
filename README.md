@@ -1,152 +1,157 @@
-# 🍵 CAI
+# ☕ CAI
 
-## ✨ Özellikler
-### 🤖 AI Asistan
-- **Akıllı Yanıtlar**: Çay kültürü hakkında her sorunuzu yanıtlayan AI
-- **Hızlı Soru-Cevap**: Sık sorulan sorular için hızlı erişim butonları
-- **Kişiselleştirilmiş Öneriler**: Durumunuza göre çay tavsiyeleri
-- **Gerçek Zamanlı Sohbet**: Doğal dil ile AI ile konuşun
+Komik AI asistanı ve NFT ödül sistemi olan yenilikçi bir platform! 🎭🏆
 
-### ⛓️ Blockchain Entegrasyonu
-- **Base Network**: Coinbase'in Base blockchain'i üzerinde çalışır
-- **Onchain Logging**: Tüm aktiviteleriniz blockchain'e kaydedilir
-- **BaseScan Explorer**: İşlemlerinizi BaseScan'de takip edin
-- **Gerçek Zamanlı Takip**: Blockchain işlemlerinizi anlık olarak izleyin
+## 🚀 Özellikler
 
-## 🚀 Teknolojiler
+### 🤖 CAI
+- OpenAI GPT ile güçlendirilmiş AI asistan
+- Komik ve meme'li yanıtlar
+- Emoji ve eğlenceli dil kullanımı
 
-- **Frontend**: React 18 + Next.js 15 + TypeScript
-- **Blockchain**: Base Network (Coinbase L2)
-- **Wallet**: OnchainKit MiniKit
-- **Styling**: Tailwind CSS
-- **Blockchain Client**: Viem + Wagmi
-- **Notifications**: Farcaster Frame SDK
+### 👥 Community
+- Çay severlerin buluşma noktası
+- Soru-cevap paylaşımı
+- Kategori bazlı filtreleme
+- Beğeni ve paylaşım sistemi
 
-## 🛠️ Kurulum
+### 🏆 NFT Ödül Sistemi
+- En çok beğenilen yanıtlar NFT kazanır
+- Blockchain tabanlı ödül sistemi
+- Base network entegrasyonu
+- Haftalık NFT dağıtımı
 
-### Gereksinimler
-- Node.js 18+ 
-- npm veya yarn
-- Base network cüzdanı (Coinbase Wallet)
+### 🔗 Blockchain Entegrasyonu
+- Base blockchain üzerinde çalışır
+- Tüm aktiviteler blockchain'e kaydedilir
+- Şeffaf ve güvenli işlemler
+- MiniKit ile desteklenir
 
-### Adımlar
+## 🛠️ Teknolojiler
 
-1. **Repository'yi klonlayın**
+- **Frontend**: Next.js 15, React 18, TypeScript
+- **Styling**: Tailwind CSS, Framer Motion
+- **AI**: OpenAI GPT-3.5/4 API
+- **Blockchain**: Base Network, MiniKit
+- **Wallet**: Coinbase Wallet, MetaMask
+- **Icons**: Lucide React
+
+## 📦 Kurulum
+
+1. **Repository'yi klonlayın:**
 ```bash
-git clone https://github.com/yourusername/bardai-caychain.git
-cd bardai
+git clone https://github.com/yourusername/teacup-ai.git
+cd teacup-ai
 ```
 
-2. **Bağımlılıkları yükleyin**
+2. **Bağımlılıkları yükleyin:**
 ```bash
 npm install
-# veya
-yarn install
 ```
 
-3. **Environment değişkenlerini ayarlayın**
+3. **Environment variables'ları ayarlayın:**
 ```bash
 cp .env.example .env.local
 ```
 
 `.env.local` dosyasını düzenleyin:
 ```env
-NEXT_PUBLIC_ONCHAINKIT_API_KEY=your_api_key_here
-NEXT_PUBLIC_ONCHAINKIT_PROJECT_NAME=BardAI ÇayChain
-NEXT_PUBLIC_URL=http://localhost:3000
-NEXT_PUBLIC_APP_HERO_IMAGE=https://your-domain.com/hero.png
-NEXT_PUBLIC_SPLASH_IMAGE=https://your-domain.com/splash.png
-NEXT_PUBLIC_ICON_URL=https://your-domain.com/icon.png
-NEXT_PUBLIC_SPLASH_BACKGROUND_COLOR=#1a1a1a
+OPENAI_API_KEY=your_openai_api_key_here
+NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
 
-4. **Uygulamayı başlatın**
+4. **Development server'ı başlatın:**
 ```bash
 npm run dev
-# veya
-yarn dev
 ```
 
-5. **Tarayıcıda açın**
+5. **Tarayıcıda açın:**
 ```
 http://localhost:3000
 ```
 
-## 📱 Kullanım
-### 🤖 AI Asistan ile Sohbet
-1. "🤖 AI Asistan" sekmesine tıklayın
-3. Hızlı soru butonlarını kullanarak yaygın soruları sorun
-4. AI'dan kişiselleştirilmiş çay önerileri alın
-5. Tüm konuşmalar blockchain'e kaydedilir
+## 🔑 API Anahtarları
 
-### ⛓️ Blockchain Log Takibi
-1. "⛓️ Blockchain Log" sekmesine tıklayın
-2. Tüm blockchain işlemlerinizi görüntüleyin
-3. İşlem türlerine göre filtreleme yapın
-4. BaseScan explorer'da işlem detaylarını görün
-5. İstatistiklerinizi takip edin
+### OpenAI API
+1. [OpenAI Platform](https://platform.openai.com/) adresine gidin
+2. Hesap oluşturun veya giriş yapın
+3. API Keys bölümünden yeni anahtar oluşturun
+4. `.env.local` dosyasına ekleyin
 
-## 🔧 API Endpoints
-**Request Body:**
-```json
-{
-  "session": {
-    "teaType": "Yeşil Çay",
-    "rating": 5,
-    "notes": "Harika bir deneyimdi",
-    "timestamp": 1234567890
-  },
-  "address": "0x..."
-}
+## 🎯 Kullanım
+
+### CAI ile Sohbet
+1. ☕ sekmesine tıklayın
+2. Komik ve bilgilendirici yanıtlar alın
+3. Yanıtları beğenin ve paylaşın
+
+### Community'de Paylaşım
+1. 👥 sekmesine gidin
+2. Soru ve yanıtlarınızı paylaşın
+3. Diğer kullanıcıların içeriklerini beğenin
+4. NFT kazanma şansınızı artırın
+
+### NFT Kazanma
+1. Kaliteli sorular sorun
+2. Detaylı ve yararlı yanıtlar verin
+3. Community'de aktif olun
+4. En çok beğenilen yanıtlar NFT kazanır
+
+## 🏗️ Proje Yapısı
+
+```
+CAI/
+├── app/
+│   ├── api/
+│   │   ├── tea-cup-ai/          # OpenAI API entegrasyonu
+│   │   ├── ai-conversation/     # Blockchain logging
+│   │   └── ...
+│   ├── components/
+│   │   ├── TeaCupAI.tsx        # Ana AI asistan bileşeni
+│   │   ├── Community.tsx       # Community bileşeni
+│   │   └── ...
+│   ├── page.tsx                # Ana sayfa
+│   └── layout.tsx              # Layout bileşeni
+├── lib/                        # Utility fonksiyonları
+├── public/                     # Statik dosyalar
+└── package.json               # Bağımlılıklar
 ```
 
-### POST /api/ai-conversation
-AI konuşma verilerini blockchain'e kaydeder.
+## 🎨 Tema ve Stil
 
-**Request Body:**
-```json
-{
-  "userMessage": "Hangi çay türü en sağlıklı?",
-  "aiResponse": "Yeşil çay antioksidan açısından en zengin olanıdır.",
-  "address": "0x...",
-  "timestamp": 1234567890
-}
-```
+Proje, modern ve kullanıcı dostu bir arayüze sahiptir:
+- Responsive tasarım
+- Dark/Light tema desteği
+- Smooth animasyonlar
+- Emoji ve görsel öğeler
+- Çay temalı renk paleti
 
-### GET /api/blockchain-logs?address=0x...
-Kullanıcının blockchain log kayıtlarını getirir.
+## 🔧 Geliştirme
 
-## 🌐 Base Network
+### Yeni Özellik Ekleme
+1. Feature branch oluşturun
+2. Gerekli bileşenleri ekleyin
+3. API entegrasyonlarını yapın
+4. Test edin ve PR açın
 
-Bu uygulama Coinbase'in Base network'ü üzerinde çalışır:
+### Stil Güncellemeleri
+- Tailwind CSS kullanın
+- CSS variables'ları `theme.css`'de tanımlayın
+- Responsive tasarım prensiplerini uygulayın
 
-- **Network**: Base Mainnet
-- **Chain ID**: 8453
-- **RPC URL**: https://mainnet.base.org
-- **Explorer**: https://basescan.org
-- **Currency**: ETH
+## 🚀 Deployment
 
-## 🔐 Güvenlik
+### Vercel (Önerilen)
+1. Vercel hesabı oluşturun
+2. GitHub repository'yi bağlayın
+3. Environment variables'ları ayarlayın
+4. Deploy edin
 
-- Tüm blockchain işlemleri kullanıcının cüzdanı ile imzalanır
-- API endpoint'leri rate limiting ile korunur
-- Hassas veriler client-side'da saklanmaz
-- Blockchain işlemleri immutable ve şeffaftır
-
-## 🚧 Geliştirme
-
-### Yeni AI Yanıtı Ekleme
-`app/components/AIAssistant.tsx` dosyasındaki `generateAIResponse` fonksiyonuna yeni yanıt mantığı ekleyin.
-
-### Blockchain Contract Entegrasyonu
-Gerçek blockchain kontratı entegrasyonu için:
-1. Smart contract'ı Base network'e deploy edin
-2. `CONTRACT_ADDRESS` ve `CONTRACT_ABI` değişkenlerini güncelleyin
-3. Mock transaction'ları gerçek kontrat çağrıları ile değiştirin
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
+### Diğer Platformlar
+- Netlify
+- Railway
+- Heroku
+- AWS Amplify
 
 ## 🤝 Katkıda Bulunma
 
@@ -154,16 +159,26 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
 3. Commit yapın (`git commit -m 'Add amazing feature'`)
 4. Push yapın (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
+5. Pull Request açın
+
+## 📝 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasına bakın.
 
 ## 🙏 Teşekkürler
 
-- [Coinbase](https://coinbase.com) - Base Network
-- [OnchainKit](https://onchainkit.xyz) - MiniKit
-- [Farcaster](https://farcaster.xyz) - Frame SDK
-- [Viem](https://viem.sh) - Blockchain Client
-- [Wagmi](https://wagmi.sh) - React Hooks
+- [OpenAI](https://openai.com/) - AI API'leri için
+- [Base](https://base.org/) - Blockchain altyapısı için
+- [MiniKit](https://onchainkit.xyz/) - Blockchain entegrasyonu için
+- [Next.js](https://nextjs.org/) - React framework'ü için
+- [Tailwind CSS](https://tailwindcss.com/) - Styling için
+
+## 📞 İletişim
+
+- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **Email**: your.email@example.com
+- **Twitter**: [@yourusername](https://twitter.com/yourusername)
 
 ---
 
-**🍵 Çay kültürünü blockchain ile yaşayın! ⛓️**
+☕ **Komik yanıtlar al, NFT kazan!** 🎉

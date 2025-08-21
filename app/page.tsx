@@ -23,9 +23,9 @@ import { Button } from "./components/DemoComponents";
 import { Icon } from "./components/DemoComponents";
 import { Home } from "./components/DemoComponents";
 import { Features } from "./components/DemoComponents";
-import { TeaCulture } from "./components/TeaCulture";
-import { AIAssistant } from "./components/AIAssistant";
 import { BlockchainLog } from "./components/BlockchainLog";
+import { TeaCupAI } from "./components/TeaCupAI";
+import { Community } from "./components/Community";
 
 export default function App() {
   const { setFrameReady, isFrameReady, context } = useMiniKit();
@@ -79,10 +79,10 @@ export default function App() {
         return <Home setActiveTab={setActiveTab} />;
       case "features":
         return <Features setActiveTab={setActiveTab} />;
-      case "tea-culture":
-        return <TeaCulture setActiveTab={setActiveTab} />;
-      case "ai-assistant":
-        return <AIAssistant setActiveTab={setActiveTab} />;
+      case "tea-cup-ai":
+        return <TeaCupAI setActiveTab={setActiveTab} />;
+      case "community":
+        return <Community setActiveTab={setActiveTab} />;
       case "blockchain-log":
         return <BlockchainLog setActiveTab={setActiveTab} />;
       default:
@@ -131,26 +131,18 @@ export default function App() {
           <Button
             variant="ghost"
             size="sm"
-            onClick={() => setActiveTab("tea-culture")}
-            className={`text-xs ${activeTab === "tea-culture" ? "text-[var(--app-accent)]" : "text-[var(--app-foreground-muted)]"}`}
+            onClick={() => setActiveTab("tea-cup-ai")}
+            className={`text-xs ${activeTab === "tea-cup-ai" ? "text-[var(--app-accent)]" : "text-[var(--app-foreground-muted)]"}`}
           >
-            🍵
+            ☕
           </Button>
           <Button
             variant="ghost"
             size="sm"
-            onClick={() => setActiveTab("ai-assistant")}
-            className={`text-xs ${activeTab === "ai-assistant" ? "text-[var(--app-accent)]" : "text-[var(--app-foreground-muted)]"}`}
+            onClick={() => setActiveTab("community")}
+            className={`text-xs ${activeTab === "community" ? "text-[var(--app-accent)]" : "text-[var(--app-foreground-muted)]"}`}
           >
-            🤖
-          </Button>
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => setActiveTab("blockchain-log")}
-            className={`text-xs ${activeTab === "blockchain-log" ? "text-[var(--app-accent)]" : "text-[var(--app-foreground-muted)]"}`}
-          >
-            ⛓️
+            👥
           </Button>
         </nav>
 
